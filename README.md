@@ -1,28 +1,85 @@
-# co5fd4991acd2a6ded9358bb4
+# 🎲 Tenzies Game
 
-Quick start:
+A fun and interactive dice game built with React. Try to get all 10 dice to show the same number!
 
+## 🎮 How to Play
+
+1. 🎯 **Goal**: Get all 10 dice to show the same number
+2. 🎲 **Roll**: Click the "Roll" button to randomize unfrozen dice
+3. 🔒 **Hold**: Click on any die to freeze it at its current value
+4. 🔄 **Keep Rolling**: Roll only the unfrozen dice until all dice match
+5. 🎉 **Win**: When all dice show the same number, you win!
+
+## 🚀 Play Now
+
+🌟 **Play the game online**: https://flotenzie.netlify.com
+
+## 🛠️ Built With
+
+- **React** - Frontend framework
+- **JavaScript** - Game logic
+- **CSS** - Styling
+- **Webpack** - Build system
+- **React Confetti** - Winning animation
+
+## 🎯 Features
+
+- 🎲 Interactive dice rolling
+- 🔒 Click-to-hold dice functionality
+- 🎊 Confetti animation when you win
+- 🔄 Reset game option
+- 📱 Responsive design
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/tenzies-game.git
 ```
-$ yarn # npm install
-$ yarn build # npm run build
-````
 
-## Development
-
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
-
-```
-$ yarn watch # npm run watch
+2. Navigate to the project directory:
+```bash
+cd tenzies-game
 ```
 
-## About Scrimba
+3. Install dependencies:
+```bash
+npm install
+```
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+4. Run the development server:
+```bash
+npm start
+```
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+5. Open your browser and go to the localhost address shown in the terminal
 
-Happy Coding!
+## 🔧 Build for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+This will create a `dist` folder with the optimized production files.
+
+## 🎨 Game Rules
+
+- All dice start with random values
+- Click any die to "hold" it (it will change color)
+- Click "Roll" to randomize all unfrozen dice
+- Keep rolling until all 10 dice show the same number
+- Win the game and enjoy the confetti! 🎉
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+## 🤝 Contributing
+
+Pull requests are welcome! Feel free to improve the game or add new features.
+
+---
+
+**Made with ❤️ by [Your Name]**
