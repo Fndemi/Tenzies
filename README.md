@@ -12,7 +12,7 @@ A fun and interactive dice game built with React. Try to get all 10 dice to show
 
 ## 🚀 Play Now
 
-🌟 **Play the game online**: https://flotenzie.netlify.com
+🌟 **Play the game online**: https://flotenzie.netlify.app/
 
 ## 🛠️ Built With
 
